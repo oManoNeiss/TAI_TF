@@ -1,0 +1,299 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Oleo Script Swash Caps', cursive;
+}
+body{
+	background-image: url('../Imagens/leaf.png');
+}
+
+
+	/*classes padrão. iremos utilizar durante todo o projeto*/
+	/**Boot CSS**/
+img{
+	width: 100%;
+	max-width: 500px;
+
+}
+textarea{
+	width: 60%;
+	padding: 17px;
+	font-size: 16px;
+	border-width: 1px;
+	background-color: #424242;
+	color: #ffffff;
+	border: none;
+	border-left: #a69e00 1px solid;
+	border-bottom: #a69e00 1px solid;
+	outline: none;
+	border-top-right-radius: 15px;
+}
+
+iframe{
+	width: 100%;
+	max-width: 500px;
+	box-shadow: 0px 7px 9px -3px #a69e00;
+}
+p.cadastro{
+	font-size: 14px;
+
+}
+.center{
+	max-width: 100%;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+/*qndo tiver 3 box na mesma fileira*/
+.w33{
+	width: 33.3%;
+	padding: 0 10px;
+}
+
+.w50{
+	width: 50%;
+	padding: 0 10px;
+}
+
+
+.left{
+	float: left;
+}
+
+.rigth{
+	float: right;
+}
+
+/*limpar as flutuações*/
+.clear{
+	clear: both;
+}
+/**estilização do site**/
+
+.link-cad{
+	color: #a69e00;
+	text-decoration: none;
+}
+img.bio{
+	height: 230px;
+	border: #a69e00 1px solid;
+}
+header{
+	max-height: 80px;
+	padding: 20px 0;
+	background:#212121;
+	border-bottom: #000 1px solid;
+	box-shadow: 0px 7px 9px -3px rgba(0,0,0,1);
+}
+
+header .logo{
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: white;
+}
+.logo-image{
+	margin-top: -15px;
+	height: 70px;
+}
+.menuzin{
+	color: #fff;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+input.login{
+	width: 60%;
+	padding: 17px;
+	font-size: 16px;
+	border-width: 1px;
+	background-color: #424242;
+	color: #ffffff;
+	border: none;
+	border-left: #a69e00 1px solid;
+	border-bottom: #a69e00 1px solid;
+	outline: none;
+	border-top-right-radius: 15px;
+
+}
+.btn{
+	background-color: #a69e00;
+	color: #fff;
+	width: 30%;
+	height: 30px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px 20px 5px 20px;
+}
+.center-log h1{
+	color: #fff;
+}
+.form-login{
+	padding: 40px 0;
+	background-color: #212121;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 83.1vh;
+	color: #fff;
+	width: auto;
+}
+
+.mobile{
+	display: none;
+}
+
+nav.desktop ul{
+	position: relative;
+	top: 6px;
+	list-style-type: none;
+}
+
+nav.desktop li{
+	font-weight: 380;
+	font-size: 15px;
+	padding: 0 30px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+nav.desktop a{
+	color: white;
+	text-decoration: none;
+}
+/*estilizando o banner*/
+section.banner-principal{
+	width: 100%;
+	height: 600px;
+	background-image: url("../Imagens/banerzin.png");
+	background-size: cover ;
+	position: relative;
+	border-bottom: 1px solid #000;
+}
+
+/*efeito de sobrepor imagem*/
+.overlay{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.intro{
+	color: #fff;
+	font-size:38px;
+	margin: 3%;
+	margin-top: 10%;
+	position:absolute;
+}
+/*estilizando o form*/
+section.descricao-autor{
+	padding: 40px 0;
+	border-bottom: #000 1px solid;
+	background-color: #212121;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+section.descricao-autor h2{
+	font-size: 28px;
+	font-weight: 300;
+	color: #fff;
+}
+section.descricao-autor p{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 300;
+	margin-top: 10px;
+}
+section.descricao-autor img{
+	border: #a69e00 1px solid;
+}
+section.especialidades{
+	padding: 40px 0;
+	background: #212121;
+}
+section.especialidades h2.title{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	color: #fff;;
+}
+.box-especialidade{
+	margin: 40px 0;
+	text-align: center;
+}
+.box-especialidade h3{
+	color: #a69e00;
+	font-size: 30px;
+}
+.box-especialidade h4{
+	font-weight: 300;
+	font-size: 25px;
+	color: #bababa;
+	
+}
+.box-especialidade p{
+	color:#444;
+	font-size: 15px;
+	margin-top: 10px;
+}
+section.extras{
+	padding: 30px 0;
+	background: #404588;
+}
+
+section.extras .title{
+	color: white;
+	font-weight: 300;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+
+.servicos ul{
+	margin: 20px 0;
+	
+}
+.servicos li{
+	margin-bottom: 15px;
+	font-size: 15px;
+	font-weight: 300;
+}
+footer{
+	width: 100%;
+	background: #212121;
+	padding: 30px 0;
+	border-top: #000 1px solid;
+}
+footer p{
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+
+/*deixando responsivo*/
+
+@media screen and (max-width: 768px){
+	img{
+		float: none !important;
+		display: block;
+		margin: 0 auto;
+	}
+	.w50{
+		padding: 20px;
+		width: 100%;
+	}
+	.w33{
+		width: 100%;
+		padding: 20px;
+	}
+	.box-especialidade{
+			padding: 40px 20px;
+			margin: 0;
+		}
+}
